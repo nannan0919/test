@@ -1,0 +1,91 @@
+
+.body .right .content  .box {
+    text-align: center;
+    margin-left: 0.14rem;
+    z-index: 1;
+    height: 1rem;
+    padding: 0.15rem;
+    position: relative;
+}
+
+.body .right .content  .box #jumpPage {
+    width: 46%;
+    height: 0.7rem;
+    margin: 0 auto;
+}
+
+.body .right .content  .box .right {
+    width: 25%;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    position: absolute;
+    right: 0;
+    top: 0.14rem;
+}
+
+.body .right .content  .box button {
+    margin: 0 10px;
+    height: 0.7rem;
+    /* .fl; */
+    float: left;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.body .right .content .box .first-page,
+.last-page {
+    margin: 0;
+}
+
+.body .right .content  .box .pageWrap {
+    height: 0.7rem;
+    /* .fl; */
+    float: left;
+    overflow: hidden;
+}
+
+.body .right .content .box .pageWrap ul {
+    width: 100000px;
+    height: 0.7rem;
+    float: left;
+}
+
+.body .right .content .box .pageWrap ul li {
+    width: 0.8rem;
+    height: 0.7rem;
+    border: 0.01rem solid #c4d1d6;
+    line-height: 0.7rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+}
+
+.body .right .content .box .pageWrap ul .sel-page {
+    border: 0.02rem solid #11a0e7;
+    background-color: #11a0e7; 
+    color: #fff;
+}
+
+.body .right .content .box .jump-text {
+    height: 0.7rem;
+    line-height: 0.7rem;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 5px;
+    color: #030303;
+    float: left;
+}
+
+.body .right .content .box .jump-button {
+    margin: 0;
+    float: left;
+}
+
+.body .right .content .box .total-pages,
+.total-count {
+    margin-left: 0.7rem;
+    float: left;
+    font-size: 0.28rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+}
